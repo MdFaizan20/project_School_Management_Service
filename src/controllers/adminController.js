@@ -14,7 +14,7 @@ module.exports = {
         status: true,
         message: "admin successfully created",
         data: admin,
-      });
+      }); 
     } catch (error) {
       console.error(error);
       next(error);

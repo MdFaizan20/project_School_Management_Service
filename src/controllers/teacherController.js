@@ -20,14 +20,14 @@ module.exports = {
         const transporter = nodemailer.createTransport({
           service: "gmail",
           auth: {
-            user: "",
-         pass: "",
+            user: "your email adress here",
+         pass: "password",
           },
         });
 
         // Email content
         const mailOptions = {
-          from: "",
+          from: "your email adress here",
           to: toEmail,
           subject: "Teacher Created",
           text: "Congratulations! You have been successfully added as a teacher.",
